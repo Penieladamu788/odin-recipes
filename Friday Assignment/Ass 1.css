@@ -1,0 +1,22 @@
+.wolf{
+    opacity: 1;
+}
+
+.design{
+    opacity: 0.5;
+}
+
+.world{
+    opacity: 0.2;
+}
+
+.demon{
+    opacity: 0.5;
+}
+.demon:hover{
+    opacity: 1.0;
+}
+
+.sunset:hover{
+    opacity: 0.5;
+}

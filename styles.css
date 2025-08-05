@@ -1,0 +1,126 @@
+* {text-align: center; 
+  color: blue;
+}
+
+#paragraph {
+font-size: 50px;
+color: #000;
+}
+    h1, h2, p{
+     text-align: center;
+     color: red;
+    }
+
+   body{
+    background-image: url(Images/best-laptop-1920-x-1130-background-ql4xevo7krqclqh2.jpg);
+    background-repeat: no-repeat;
+   }
+   div{
+    border: 1px solid black;
+     background-color: lightblue;
+      margin: 25px 50px 75px 100px; 
+      padding: 25px 50px 75px 100px;
+       }
+            /* height and width */
+    div{
+        height: 100px;
+        width: 100%;
+        background-color: powderblue;
+        max-width: 500px;
+        text-align: justify;
+    }
+
+    h1{
+        text-align: center;
+        text-decoration: none;
+    }
+
+    h2{
+        text-align: left;
+        text-decoration: line-through;
+    }
+
+    h3{
+        text-align: right;
+        text-decoration: underline;
+    }
+
+        a{
+            text-decoration: underline;
+        }
+        
+    h1{
+        text-transform: uppercase;
+    }
+
+    h2{
+        text-transform: capitalize;
+    }
+
+    p{
+        letter-spacing: 1px;
+    }
+
+    p #wahala {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    p{
+        font-size: 30px;
+    }
+
+    a{
+        color: hotpink;
+    }
+
+    .header{
+        background-color: green;
+    }
+
+    div{
+        border: 2px solid;
+    }
+
+    li{
+        display: inline;
+    }
+
+    .relative{
+        position: relative;
+        left: 30px;
+        border: 3px solid;
+    }
+
+    h1 .philosophy{
+        text-decoration: none;
+    }
+
+    .image{
+        position: absolute;
+        left: 50px;
+        bottom: 20px;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .philosophy{
+        position: absolute;
+        bottom: 20px;
+        left: 50px;
+        z-index: 2;
+    }
+
+    .container{
+        display: grid;
+        background-color: light blue;
+        padding: 10px;
+        grid-template-columns: auto auto  auto;
+    }
+
+    .container > div{
+        background-color: red;
+        border: 1px solid black;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+    }

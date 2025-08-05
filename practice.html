@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Data Processing
+    </title>
+</head>
+<body>
+        <h1>Hello World</h1>
+    <p style="font-size: larger;">Welcome to the website that gives you guaranteed information on Data Processing topics of your choosing such as:
+        <ul>
+           <li>
+            INDEXES
+           </li>
+           <li>
+            DATABASE SECURITY
+           </li>
+         </ul>
+    </p>
+    <h1 style="background-color: lightblue; color: black; padding: 40px; text-align: center;" >
+        INDEXES
+    </h1>
+    <p style="font-size: larger;">Indexes are special lookup tables that the database search engine can use to speed up data retreival.
+         <br>
+        Simply put, an index is a pointer to data in a table. An index in a database is similiar to an index at the book/ bible.
+         <br>
+          Index are automatically created when <a href="key.html">primary key and unique constraints</a> primary key and unique constraints are defines as table columns.
+    </p>
+    <h2 style="background-color: lightblue; color: black; text-align: center;">
+        INDEX CLASSIFICATION
+    </h2>
+    <ol>
+        <li style="font-size: larger;">
+            Clustered and Non-Clustered Index
+        </li>
+        <li style="font-size: larger;">
+            Dense and Sparse Index
+        </li>
+        <li style="font-size: larger;">
+            Primary and Secondary Index
+        </li>
+    </ol>
+    <ul>
+        <li style="font-size: larger;">
+            Clustered and Non-Clustered
+        </li>
+        <p style="font-size: larger;">
+            Clustered index stored the data rows or view based on their key value. These are the columns included in the index definition.
+             <br>
+             There can only be one clustered index per table, because the data rows themselves can be sorted in only one order.
+              <br>
+              Non-clustered index has a structure seperate from data rows.
+               <br>
+                A non-clustered index key values and each key value entry has a pointer to the data row that contains the key value. Its data rows are stored in an unordered structure called heap.
+        </p>
+        </ul>
+        <ul>
+            <li style="font-size: larger;">
+                Dense and Sparse Index
+            </li>
+            <p style="font-size: larger;">
+                A dense index in a database is a file with pairs of keys and pointers for every record in a file. Every key in this file is associated with a particular
+                 <br>
+                 pointer to record in the sorted data file. An index record appears for every search key value and a pointer to the actual record. 
+                 <br>
+                 A sparse index is a file with pairs of keys and pointers for every block in the data file.
+                  <br>
+                   Every key in this file is associated with a particualar pointer to the block to the sorted data file. In clustered indexes with duplicate keys, the sparse index points to the lowest search key in each block.
+                    <br>
+                    In index, records are created only for some of the records.
+           </p>
+          </ul>
+          <ul>
+            <li style="font-size: larger;">
+                Primary and Secondary Index
+            </li>
+            <p style="font-size: larger;">
+                Primary indexcontains the key fields of the table and a pointer to non-key fields of the table. The primary key index is created automatically when the table is created in the database.
+                 <br>
+                 Secondary index is used to index fields that are neither ording fields nor key fields (Here is no assurance to the file  is organized on key field or primary key).
+                 When you create the file you must first specify two things abaout the primary index:
+                  <br>
+                  <ol>
+                    <li style="font-size: larger;">
+                        The name of the primary index
+                    </li>
+                    <li style="font-size: larger;">
+                        The primary index specification
+                    </li>
+                    </ol>
+            </p>
+        </ul> 
+        <h1 style="background-color: lightblue; color: black; padding: 40px; text-align: center;">
+            DATABASE SECURITY
+        </h1>
+        <p style="font-size: larger;">
+            Database security refers to the collective measures used to protect and secure a database/database management software/system from illegitimate use and malicious threats and attacks.
+             <br>
+             It is a broad term that includes a multiple of processes, tools and methodologies that ensures security within a database environment.
+              <br>
+              Database security covers and enforces security on all aspect and components of database.
+               <br>
+               This includes: 
+               <br>
+               <ul>
+                <li style="font-size: larger;">
+                    Data stored in database
+                </li>
+                <li style="font-size: larger;">
+                    Database server
+                </li>
+                <li style="font-size: larger;">
+                    DBMS
+                </li>
+                <li style="font-size: larger;">
+                    Other database workflow applicaton
+                </li>
+               </ul>
+        </p>
+        <p style="font-size: larger;">
+            The three main objectives to consider when designing a secure database are;
+             <br>
+             <ul>
+                <li style="font-size: larger;">
+                    Security
+                </li>
+                <li style="font-size: larger;">
+                    Integrity
+                </li>
+                <li style="font-size: larger;">
+                    Availability
+                </li>
+             </ul>
+        </p>
+        <div style="background-color:lightblue;">
+            <h2>
+                Data Security
+            </h2>
+            <p style="font-size: larger;">
+                It is a practice of keeping data protected from corruption and unauthorized access. 
+                <br>
+                The focus beheind data security is to ensure privacy while protecting personal or cooperate data.
+            </p>
+        </div>
+        <h2>
+            Importance of Data Security
+        </h2>
+        <ol>
+            <li style="font-size: larger;">
+                Risk Assesssment
+            </li>
+            <li style="font-size: larger;">
+                Securing Data
+            </li>
+        </ol>
+        <h2>
+            Types of Security Control on the Data
+        </h2>
+        <ol>
+            <li style="font-size: larger;">
+                Access Control
+            </li>
+            <li style="font-size: larger;">
+                Auditing Database
+            </li>
+            <li style="font-size: larger;">
+                Authentication Database
+            </li>
+            <li style="font-size: larger;">
+                Encrytion
+            </li>
+        </ol>
+        <div style="background-color: lightblue;">
+            <h2>
+                Database Administrator
+            </h2>
+            <p style="font-size: larger;">
+                A databaes administrator is responsible for the performance integrity and security of a database.
+                 <br>
+                 Also, a Database Administrator involved in a planning and development of database.
+            </p>
+        </div>
+        <h2>
+            Role of a Database Administrator
+        </h2>
+        <ol>
+            <li style="font-size: larger;">
+                Installing and updating the database server and application tools
+            </li>
+            <li style="font-size: larger;">
+                Controlling and monitoring user access to the daatabase 
+            </li>
+            <li style="font-size: larger;">
+                Backing up and restoring database
+            </li>
+            <li style="font-size: larger;">
+                Maintaining system security
+            </li>
+            <li style="font-size: larger;">
+                Monitoring and optimizing the performanceof the database
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+/* Body */
+body{
+    margin-left: 30px;
+    background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Top Navigation Bar */
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 30px 20px;
+    position: sticky;
+    top: 0;
+}
+
+.topnav h1{
+    color: white;
+    margin: 0;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-links a:hover{
+    text-decoration: none;
+}
+
+/* Search tab */
+input[type=search] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(searchicon.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+.input[type=search]:focus{
+    width: 100%;
+}
+
+/* Sub Navigation Links */
+.sub-links{
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.sub-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-weight: bold;
+}
+
+.sub-links a:hover{
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+
+/* Image */
+div > img{
+    border-radius: 10px;
+}
+
+/* Timing */
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/* Diet */
+.diet{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+/* Button */
+.button{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+.image{
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.philosophy{
+    position: absolute;
+    bottom: 300px;
+    left: 50px;
+    z-index: 2;
+}
+
+.container{
+    position: relative;
+}
+
+.blackbox{
+    position: relative;
+    z-index: 1;
+    border: 2px solid;
+    height: 100px;
+    margin: 30px;
+    bottom: -600px;
+}
+
+.graybox{
+    position: absolute;
+    z-index: 3;
+    background: lightgray;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    bottom: -600px;
+    
+}
+
+.greenbox{
+    position: absolute;
+    z-index: 2;
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    bottom: -550px;
+    height: 100px;
+
+}
